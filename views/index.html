@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>File Metadata Microservice - FCC Project</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+   <link href="style.css" rel="stylesheet" type="text/css">
+   <style></style>
+</head>
+<body>
+   <div class = "container">
+      <h1 class = "header text-center">File Metadata Microservice</h1>
+      <h4 class = "subheader text-center">(Back End FreeCodeCamp Project)</h4>
+      <h5 class = "subheader text-center">Tools: AWS - EC2 (Ubuntu), Node.js, Express.js, Multer (Form Metadata), Glitch.com</h5>
+         <div class = "userStories">
+           <div class = "useCase">
+           <h4 class= "stories">User stories:</h4>
+           <ul>1. I can submit a FormData object that includes a file upload.</ul>
+           <ul>2. When I submit something, I will receive the file size in bytes within the JSON response.</ul>     
+           </div>
+            <!--multer form data-->
+            <form action ="/upload" method ="post" enctype="multipart/form-data">
+            <label for="fileName"> Select a File to Upload </label>
+            <input type="file" id="fileName" name="fileName">
+            <input type="submit">
+
+            </form>
+   </div>
+  
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-12 footer">
+  <footer class="text-center">
+
+  <i class="fa fa-copyright" aria-hidden="true"></i>File Metadata Microservice - FreeCodeCamp Back End Project. By 
+  <a href="https://github.com/yemz/imageSearchFCCProject"> Yessenia Melendez</a>. 
+  </footer>
+</div>
+  </div>
+    </div>
+
+<script type="text/javascript">
+
+</script>
+
+</body>
+</html>
