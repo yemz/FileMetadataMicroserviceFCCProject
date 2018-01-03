@@ -1,0 +1,130 @@
+body{
+   background-color: darkgray;
+   color: lightgray;
+   font-family: 'Montserrat', sans-serif;
+ }
+h1, h4, h5{
+   color: #3d3d3d;
+ }
+.userStories{
+   background: #ededed;
+   color: #3d3d3d;
+   border-color: gray;
+   border-width: 1px;
+   border-style: solid;
+   border-radius: 10px;
+   padding-top: 5px;
+   padding-bottom: 40px;
+   margin: 0 auto;
+   margin-top: 40px;
+   width: 70%;
+ }
+
+.container{
+   background: #ffffff;
+   color: #000000;
+   border-color: gray;
+   border-width: 2px;
+   border-style: solid;
+   border-radius: 10px;
+   margin: 0 auto;
+   margin-top: 40px;
+   padding-top: 20px;
+   padding-bottom: 75px;
+   width: 80%;   
+}
+
+.useCase{
+   background-color: gray;
+   color: #ffffff;
+   margin: 0 auto;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.stories{
+   margin-left: 10px;
+   color: #ffffff;
+}
+
+code{
+   font-size: 14px;
+}
+
+.output{
+   color: gray;
+}
+
+form {
+  margin: 0 auto;
+  /*margin-bottom: 25px;*/
+  padding: 15px;
+  background-color: gray;
+  /*display: inline-block;*/
+  width: 100%;
+  max-width: 340px;
+  border-radius: 8px;
+}
+
+label{
+  color: #ffffff;
+  font-size: 18px;
+  margin-left: 60px;
+}
+
+#fileName{
+  color: white;
+}
+
+input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  font-size: 16px;
+
+}
+
+button {
+  font-size: 16px;
+  border-radius: 3px;
+  background-color: lightgrey;
+  border: 2px solid #ffffff;
+  box-shadow: 2px 2px gray;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: gray;
+  color: #ffffff;
+}
+
+button:active {
+  box-shadow: none;
+}
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #2d2c2c;
+  color: white;
+  text-align: center;
+  opacity: 0.5;
+}
